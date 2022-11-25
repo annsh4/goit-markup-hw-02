@@ -1,0 +1,219 @@
+:root {
+	--primary-text-color: #2e2f42;
+	--primary-white-color: #ffffff;
+	--accent-color: #4d5ae5;
+	--secondary-text-color: #434455;
+	--primary-btn-color: #f4f4fd;
+	--accent-btn-color: #404bbf;
+	--primary-font: "Roboto", sans-serif;
+	--logo-font: "Raleway", sans-serif;
+	--primary-font-weight: 400;
+	--secondary-font-weight: 500;
+}
+
+body {
+	font-family: var(--primary-font);
+}
+
+.list {
+	list-style: none;
+}
+
+.link {
+	text-decoration: none;
+}
+
+.logo {
+	font-family: var(--logo-font);
+	font-size: 18px;
+	line-height: 1.33;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: var(--primary-text-color);
+}
+
+.logo-span {
+	font-family: var(--logo-font);
+	font-size: 18px;
+	line-height: 1.33;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: var(--accent-color);
+}
+
+.site-nav {
+	font-weight: var(--secondary-font-weight);
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--primary-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+	color: var(--accent-color);
+}
+
+.site-nav .link:active {
+	color: var(--secondary-text-color);
+}
+
+.site-contacts .contact-email,
+.site-contacts .contact-phone {
+	font-weight: var(--primary-font-weight);
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--primary-text-color);
+}
+
+.site-contacts .contact-email:hover,
+.site-contacts .contact-email:focus,
+.site-contacts .contact-phone:hover,
+.site-contacts .contact-phone:focus {
+	color: var(--accent-color);
+}
+
+.hero-section .title {
+	font-weight: var(--secondary-font-weight);
+	font-size: 56px;
+	line-height: 1.07;
+	text-align: center;
+	letter-spacing: 0.02em;
+	color: var(--primary-white-color);
+}
+
+.hero-section .modal-btn {
+	font-weight: var(--secondary-font-weight);
+	font-size: 16px;
+	line-height: 1.19;
+	letter-spacing: 0.04em;
+	color: var(--primary-white-color);
+	background-color: var(--accent-color);
+}
+
+.hero-section .modal-btn:hover,
+.hero-section .modal-btn:focus {
+	background-color: var(--accent-btn-color);
+}
+
+.benefits-section .benefit-name {
+	font-weight: var(--secondary-font-weight);
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: var(--primary-text-color);
+}
+
+.benefits-section .benefit-description {
+	font-weight: var(--primary-font-weight);
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--secondary-text-color);
+}
+
+.products-section .title {
+	font-weight: var(--secondary-font-weight);
+	font-size: 36px;
+	line-height: 1.11;
+	text-align: center;
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
+	color: var(--primary-text-color);
+}
+
+.team-section .title {
+	font-weight: var(--secondary-font-weight);
+	font-size: 36px;
+	line-height: 1.1;
+	text-align: center;
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
+	color: var(--primary-text-color);
+}
+
+.team-section .person-name {
+	font-weight: var(--secondary-font-weight);
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: var(--primary-text-color);
+}
+
+.team-section .position {
+	font-weight: var(--primary-font-weight);
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--secondary-text-color);
+}
+
+.logo-footer {
+	font-family: var(--logo-font);
+	font-size: 18px;
+	line-height: 1.17;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: var(--primary-text-color);
+}
+
+.logo-footer-span {
+	font-family: var(--logo-font);
+	font-size: 18px;
+	line-height: 1.17;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: var(--accent-color);
+}
+
+.footer-text {
+	font-weight: var(--primary-font-weight);
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--primary-white-color);
+}
+
+.portfolio-filter .portfolio-type {
+	font-weight: var(--secondary-font-weight);
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.04em;
+	color: var(--accent-color);
+	background-color: var(--primary-btn-color);
+}
+
+.portfolio-filter .portfolio-type:hover,
+.portfolio-filter .portfolio-type:focus {
+	color: var(--primary-white-color);
+	background-color: var(--accent-color);
+}
+
+.products .product-name {
+	font-weight: var(--secondary-font-weight);
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: var(--primary-text-color);
+}
+
+.products .product-type {
+	font-weight: var(--primary-font-weight);
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--secondary-text-color);
+}
+
+.products .product-description {
+	font-weight: var(--primary-font-weight);
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--primary-white-color);
+}
